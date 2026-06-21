@@ -8,15 +8,17 @@ export default function Home() {
     <section className="space-y-12">
       <div className="space-y-4 text-base leading-7 text-neutral-800">
         <p>
-          I&apos;m an engineer and writer building thoughtful software, documenting
-          lessons from real projects, and sharing small experiments in public.
+          Hi!! Angel here and welcome to my website. I am a student at Grambling State University. I study Computer Science and no, I haven&apos;t been coding since I was 2 (lol).
+          I am learning about dev, engineering, ml, embroidery, fashion, and some other things as well, and I need a place to voice this out, hence the birth of this render you see right now.
         </p>
         <p>
-          This site is a quiet feed of articles and notes about code, craft, and
-          clear communication.
+          So I am writing to learn, share what I learn, and hear from others. I am open to conversations, questions, and even critiques.
+        </p>
+        <p>
+          P.S. This is a quiet feed of my thoughts, musings, notes, and articles about code, embroidery, and
+          the human side of building cool things (website design inspo from the goated <a href="https://healeycodes.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-neutral-950">healycodes</a>).
         </p>
       </div>
-
       <section aria-labelledby="latest-posts" className="space-y-6">
         <h2 id="latest-posts" className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
           Articles

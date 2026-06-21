@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="mb-12 border-b border-neutral-200 pb-4">
-      <nav aria-label="Primary" className="flex gap-5 text-sm">
+    <header className="mb-12">
+      <nav aria-label="Primary" className="flex gap-5 text-sm pb-4">
         <Link href="/" className="text-neutral-700 hover:text-neutral-950 hover:underline">
-          About
+          Angel
         </Link>
         <Link href="/articles" className="text-neutral-700 hover:text-neutral-950 hover:underline">
           Articles
@@ -14,6 +14,7 @@ export function Header() {
           Notes
         </Link>
       </nav>
+      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-200 to-transparent" />
     </header>
   );
 }
