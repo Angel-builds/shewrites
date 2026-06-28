@@ -18,6 +18,10 @@ export default function Home() {
           P.S. This is a quiet feed of my thoughts, musings, notes, and articles about code, embroidery, and
           the human side of building cool things (website design inspo from the goated <a href="https://healeycodes.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-neutral-950">healycodes</a>).
         </p>
+        <p>
+          Github: <a href="https://github.com/Angel-builds" target="_blank" rel="noopener noreferrer" className="underline hover:text-neutral-950">Angel-builds</a>
+          LinkedIn: <a href="https://www.linkedin.com/in/angelantwi77/" target="_blank" rel="noopener noreferrer" className="underline hover:text-neutral-950">Angel Antwi</a>
+        </p>
       </div>
       <section aria-labelledby="latest-posts" className="space-y-6">
         <h2 id="latest-posts" className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
