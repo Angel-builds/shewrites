@@ -20,8 +20,11 @@ export default function Home() {
         </p>
         <p>
           Github: <a href="https://github.com/Angel-builds" target="_blank" rel="noopener noreferrer" className="underline hover:text-neutral-950">Angel-builds</a>
+          </p>
+          <p>
           LinkedIn: <a href="https://www.linkedin.com/in/angelantwi77/" target="_blank" rel="noopener noreferrer" className="underline hover:text-neutral-950">Angel Antwi</a>
         </p>
+        
       </div>
       <section aria-labelledby="latest-posts" className="space-y-6">
         <h2 id="latest-posts" className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
