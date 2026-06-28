@@ -3,7 +3,7 @@ import { Layout } from "@/components/Layout";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hyper-Minimalist Blog",
+  title: "srcby_angel",
   description: "A content-first developer portfolio and personal blog.",
 };
 

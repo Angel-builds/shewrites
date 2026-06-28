@@ -13,6 +13,14 @@ export function Header() {
         <Link href="/notes" className="text-neutral-700 hover:text-neutral-950 hover:underline">
           Notes
         </Link>
+        <Link
+          href="https://github.com/Angel-builds"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-700 hover:text-neutral-950 hover:underline"
+        >
+          GitHub
+        </Link>
       </nav>
       <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-200 to-transparent" />
     </header>
