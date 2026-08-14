@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import rehypePrism from "rehype-prism-plus";
 import { getAllPosts, getPostBySlug } from "@/lib/content";
+import { PhotoPlaceholder } from "@/components/PhotoPlaceholder";
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -28,6 +29,10 @@ export default async function ArticlePage({
     },
   };
 
+  const components = {
+    PhotoPlaceholder,
+  };
+
   return (
     <article className="space-y-8">
       <header className="space-y-2">
@@ -38,9 +43,10 @@ export default async function ArticlePage({
       </header>
       
       <div className="prose">
-        <MDXRemote source={post.content} options={options as any} />
+        <MDXRemote source={post.content} options={options as any} components={components} />
       </div>
     </article>
   );
 }
+
 
