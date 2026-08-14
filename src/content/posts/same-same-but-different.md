@@ -13,4 +13,4 @@ And what’s a “tech blog” without mentioning Artificial Intelligence? I cam
 
 I found it really interesting, for real. Feel free to share your thoughts via email or LinkedIn chat!
 
-<PhotoPlaceholder count="2" images="https://www.reactiongifs.com/wp-content/uploads/2013/11/stoked.gif" />
+<PhotoPlaceholder count="1" images="https://www.reactiongifs.com/wp-content/uploads/2013/11/stoked.gif" />
